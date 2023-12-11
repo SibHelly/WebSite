@@ -1,0 +1,310 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+	background-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	color:#62eafc;
+	text-align: center;
+}
+
+.navbar-brand:hover {
+	color: rgb(40, 39, 54);
+}
+
+.navbar-nav > li > a{
+	font-weight: 800;
+	font-size: larger;
+	width: auto;
+	height: auto;
+	background-color: transparent;
+	color:#62eafc;
+}
+
+.navbar {
+	background-color: rgba(128, 128, 128, 0.584);
+    border-color: transparent;
+}
+
+
+.navbar-nav > li > a:hover{
+	color: rgb(40, 39, 54);
+	background-color: transparent;
+	border-bottom: 2px solid rgb(21, 6, 241);
+}
+
+
+#header {
+	background: url(../img/zoo.jpg);
+	margin-top: -150px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 600px;
+	width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerChoose {
+	background: url(../img/pus.jpg);
+	margin-top: -150px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	height: 600px;
+	width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerV {
+	background: url(../img/pus.jpg);
+	margin-top: -16px;
+	padding-top: 20px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 600px;
+	width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerV li{
+	display: inline;
+	width: 256px;
+	font-size: larger;
+	min-height: auto;
+	font-weight: 800;
+	text-align:center;
+	color:#62eafc;
+	padding-left: 120px;
+	padding-right: 178px;
+}
+
+legend{
+	font-weight: 800;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 20px;
+	padding: auto;
+    color:#62eafc;
+}
+
+#headerV label{
+	font-weight: 800;
+    font-size: larger;
+	width: auto;
+	padding-left: 178px;
+	padding-right: 190px;
+	padding-bottom: 50px;
+    padding: auto;
+    color:#62eafc;
+}
+
+#headerV a{
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: transparent;
+}
+
+#forvideo{
+	background: url(../img/forvideo.jpg);
+	margin-top: -0px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 600px;
+	width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header1 {
+	background: url(../img/about.jpg);
+	margin-top: -150px;
+	padding-top: 250px;
+	padding-bottom: 300px;
+	text-align:center;
+	background-attachment: relative;
+	background-position:center center;
+	min-height: auto;
+	width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headeranimals {
+	background: url(../img/sav.jpeg);
+	margin-top: -150px;
+	padding-top: 150px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: top center;
+	min-height: 600px;
+	width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headeranimalsnext {
+	background: url(../img/pus.jpg);
+	margin-top: 0px;
+	padding-top: 100px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: top center;
+	min-height: 600px;
+	width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headeranimalsforest {
+	background: url(../img/forest.jpg);
+	margin-top: 0px;
+	padding-top: 100px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: top center;
+	min-height: 600px;
+	width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+#textbox{
+	background-color: rgba(128, 128, 128, 0.306);
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height:auto !important;
+	width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 800;
+    color:#62eafc;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.text p{
+	color:rgb(40, 39, 54);
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+	width: 50%;
+    background-color: transparent;
+	margin-left: auto;
+    margin-right: auto
+}
+
+.text h2 {
+	color:rgb(40, 39, 54);
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    text-align: center;
+	width: 50%;
+    background-color: transparent;
+	margin-left: auto;
+    margin-right: auto;
+	font-size: larger;
+}
+
+#social {
+	margin-top: -20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #f2f2f2;
+	background-position: top center;
+	min-height:auto !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#social i {
+	font-size: 40px;
+	color: #4a4a4a
+}
+
+#social i:hover {
+	color: #1abc9c
+}

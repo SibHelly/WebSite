@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+    padding-top: 20px;
+  align-items: center;
+  display: flex;
+  min-height: auto;
+  justify-content: center;
+  width: 100%;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 400px;
+  justify-content: start;
+}
+
+.card {
+  align-items: flex-end;
+  background-size: cover;
+  border-radius: .75rem;
+  border-radius: 2rem;
+  box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+  cursor: pointer;
+  display: flex;
+  margin: 0 10px;
+  overflow: hidden;
+  transition: .6s cubic-bezier(.28,-0.03,0,.99);
+  width: 80px;
+  -webkit-border-radius: .75rem;
+  -moz-border-radius: .75rem;
+  -ms-border-radius: .75rem;
+  -o-border-radius: .75rem;
+}
+
+.card > .row {
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card > .row > .icon {
+  align-items: center;
+  background: #223;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  width: 50px;
+}
+
+.card > .row > .description {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  justify-content: center;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateY(30px);
+  transition: all .3s ease;
+  transition-delay: .3s;
+  width: 520px;
+}
+
+.description p {
+  color: rgb(0, 0, 0);
+  padding-top: 0px;
+  font-weight: 400;
+}
+
+.description h4 {
+color: #000;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
+input {
+  display: none;
+}
+
+input:checked + label {
+  width: 600px;
+}
+
+input:checked + label .description {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.card[for="c1"] {
+  background-image: url('../img/nocorog.jpeg');
+  flex: auto;
+}
+
+.card[for="c2"] {
+  background-image: url('../img/gepard2.jpg');
+}
+
+.card[for="c3"] {
+  background-image: url('../img/zebra.jpg');
+}
+
+.card[for="c4"] {
+  background-image: url('../img/clon.jpg');
+}
+
+.card[for="x1"] {
+  background-image: url('../img/verblud.jpg');
+}
+
+.card[for="x2"] {
+  background-image: url('../img/cyrikat.jpg');
+}
+
+.card[for="x3"] {
+  background-image: url('../img/fenek.jpg');
+}
+
+.card[for="x4"] {
+  background-image: url('../img/gekkon.jpg');
+}
+
+.card[for="y1"] {
+  background-image: url('../img/belka.jpg');
+}
+
+.card[for="y2"] {
+  background-image: url('../img/rebbit.jpg');
+}
+
+.card[for="y3"] {
+  background-image: url('../img/cobol.jpeg');
+}
+
+.card[for="y4"] {
+  background-image: url('../img/lica.jpg');
+}
+
+
+
+
+
